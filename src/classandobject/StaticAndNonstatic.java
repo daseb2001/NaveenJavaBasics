@@ -13,12 +13,14 @@ public class StaticAndNonstatic {
 		//can we call static method using object reference ? yes but we can acssese it directly 
 		StaticAndNonstatic obj = new StaticAndNonstatic();
 		obj.sum();
+		System.out.println("sum");
 	}
   public void sendMail(){ // non static method
 	  System.out.println("Send mail methode");
   }
   public static void sum(){// static method
 	System.out.println("Sum methode");  
+	//This is to test git
   }
 	
 }
